@@ -38,7 +38,7 @@
   - [استراتژی شاخه‌بندی](#branching-strategy)
   - [استاندارد نوشتن Commit](#commit-convention)
   - [استانداردهای کدنویسی](#code-guidelines)
-  - [Pull Request و Issues](#pull-requests-and-issues)
+  - [استانداردهای Pull Request و Issues](#pull-requests-and-issues)
 - [پروژه‌ها](#projects)
 - [مجوز](#license)
 
@@ -95,6 +95,7 @@ python-lab/
 
 ```text
 feature/number-guessing-game
+feature/caesar-cipher
 feature/update-documentation
 fix/guess-validation
 ```
@@ -133,8 +134,9 @@ fix/guess-validation
 ```bash
 feat(number-guessing-game): add random number generation
 feat(number-guessing-game): limit guesses to ten attempts
+feat(caesar-cipher): implement encoding and decoding
 fix(number-guessing-game): handle invalid user input
-docs(number-guessing-game): update usage instructions
+docs(caesar-cipher): update usage instructions
 chore(license): add MIT license
 ```
 
@@ -149,7 +151,7 @@ chore(license): add MIT license
 - به‌روز نگه داشتن مستندات هر پروژه.
 
 <a id="pull-requests-and-issues"></a>
-### 📬 Pull Request و Issues
+### 📬 استانداردهای Pull Request و Issues
 
 - هر Pull Request باید روی یک تغییر مشخص متمرکز باشد.
 - توضیح دهید چه چیزی تغییر کرده و دلیل انجام آن چیست.
@@ -162,9 +164,24 @@ chore(license): add MIT license
 
 مجموعه پروژه‌های این مخزن با هدف تمرین عملی، آزمایش ایده‌ها و توسعه مهارت‌های برنامه‌نویسی ایجاد می‌شوند.
 
-| پروژه | توضیحات |
-|---|---|
-| 🎯 [بازی حدس عدد](./number-guessing-game/) | حدس عدد انتخاب‌شده به‌صورت تصادفی در حداکثر ۱۰ تلاش، همراه با راهنمایی برای انتخاب عدد بزرگ‌تر یا کوچک‌تر. |
+<table dir="rtl" style="margin:auto">
+  <thead>
+    <tr>
+      <th align="center">پروژه</th>
+      <th align="center">توضیحات</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="right">🎯 <a href="./number-guessing-game/">بازی حدس عدد</a></td>
+      <td align="left">حدس عدد انتخاب‌شده به‌صورت تصادفی در حداکثر ۱۰ تلاش، همراه با راهنمایی برای انتخاب عدد بزرگ‌تر یا کوچک‌تر.</td>
+    </tr>
+    <tr>
+      <td align="right">🔐 <a href="./caesar-cipher/">رمزنگاری سزار</a></td>
+      <td align="left">رمزگذاری و رمزگشایی پیام‌ها با استفاده از الگوریتم Caesar Cipher و مقدار جابه‌جایی دلخواه.</td>
+    </tr>
+  </tbody>
+</table>
 
 <a id="license"></a>
 ## 📄 مجوز

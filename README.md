@@ -95,6 +95,7 @@ This repository follows a lightweight **[Feature Branch Workflow](https://www.at
 
 ```text
 feature/number-guessing-game
+feature/caesar-cipher
 feature/update-documentation
 fix/guess-validation
 ```
@@ -133,8 +134,9 @@ Commit messages follow [Semantic Commit Messages](https://gist.github.com/joshbu
 ```bash
 feat(number-guessing-game): add random number generation
 feat(number-guessing-game): limit guesses to ten attempts
+feat(caesar-cipher): implement encoding and decoding
 fix(number-guessing-game): handle invalid user input
-docs(number-guessing-game): update usage instructions
+docs(caesar-cipher): update usage instructions
 chore(license): add MIT license
 ```
 
@@ -165,6 +167,7 @@ Projects in this repository focus on practical development, experimenting with i
 | Project | Description |
 |---|---|
 | 🎯 [Number Guessing Game](./number-guessing-game/) | Guess a randomly selected number within 10 attempts, with hints indicating whether the next guess should be higher or lower. |
+| 🔐 [Caesar Cipher](./caesar-cipher/) | Encode and decode messages using the Caesar Cipher algorithm with a customizable shift value. |
 
 <a id="license"></a>
 ## 📄 License
