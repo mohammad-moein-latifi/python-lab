@@ -1,4 +1,4 @@
-<!-- 🌐 Language Switcher -->
+ <!-- 🌐 Language Switcher -->
 <p align="center">
   <a href="./README.md">
     <img src="https://badgen.net/badge/-/🔠%20English%20Version/blue?label=&scale=1.5" alt="English Version"/>
@@ -23,6 +23,7 @@
 ---
 
 <a id="about"></a>
+
 ## 👋 درباره مخزن
 
 **Python Lab** فضای کاری شخصی من برای یادگیری و تجربه با Python، آزمایش ایده‌ها، حل چالش‌های برنامه‌نویسی و توسعه پروژه‌های مستقل است.
@@ -30,6 +31,7 @@
 این مخزن مجموعه‌ای از تمرین‌های عملی، آزمایش‌های کدنویسی و پروژه‌های شخصی را در یک مکان گردآوری می‌کند؛ با تمرکز بر توسعه عملی، حل مسئله و بهبود مستمر.
 
 <a id="table-of-contents"></a>
+
 ## 📑 فهرست مطالب
 
 - [درباره مخزن](#about)
@@ -38,11 +40,12 @@
   - [استراتژی شاخه‌بندی](#branching-strategy)
   - [استاندارد نوشتن Commit](#commit-convention)
   - [استانداردهای کدنویسی](#code-guidelines)
-  - [Pull Request و Issues](#pull-requests-and-issues)
+  - [استانداردهای Pull Request و Issues](#pull-requests-and-issues)
 - [پروژه‌ها](#projects)
 - [مجوز](#license)
 
 <a id="repository-structure"></a>
+
 ## 📂 ساختار مخزن
 
 هر پروژه در یک پوشه مستقل و با نامی متناسب با موضوع یا عملکرد آن نگهداری می‌شود.
@@ -74,11 +77,13 @@ python-lab/
 5. نام و توضیح پروژه را به بخش پروژه‌های همین فایل اضافه کنید.
 
 <a id="contributing"></a>
+
 ## 🤝 مشارکت در پروژه
 
 از پیشنهادها، گزارش خطاها و مشارکت‌های برنامه‌نویسی استقبال می‌کنم. برای حفظ یکپارچگی و قابلیت نگهداری مخزن، لطفاً استانداردهای زیر را رعایت کنید.
 
 <a id="branching-strategy"></a>
+
 ### 🌿 استراتژی شاخه‌بندی
 
 این مخزن از یک گردش کار سبک **[Feature Branch Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow)** استفاده می‌کند.
@@ -102,6 +107,7 @@ fix/guess-validation
 📚 [راهنمای Feature Branch Workflow – Atlassian](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow)
 
 <a id="commit-convention"></a>
+
 ### 📝 استاندارد نوشتن Commit
 
 پیام‌های Commit بر اساس الگوی [Semantic Commit Messages](https://gist.github.com/joshbuchea/6f47e86d2510bce28f8e7f42ae84c716) نوشته می‌شوند.
@@ -118,15 +124,15 @@ fix/guess-validation
 
 **انواع متداول:**
 
-| نوع | کاربرد |
-|---|---|
-| `feat` | افزودن قابلیت جدید |
-| `fix` | رفع خطا |
-| `docs` | تغییر مستندات |
-| `style` | تغییرات قالب‌بندی بدون تغییر عملکرد |
+| نوع        | کاربرد                                    |
+| ---------- | ----------------------------------------- |
+| `feat`     | افزودن قابلیت جدید                        |
+| `fix`      | رفع خطا                                   |
+| `docs`     | تغییر مستندات                             |
+| `style`    | تغییرات قالب‌بندی بدون تغییر عملکرد       |
 | `refactor` | بازآرایی کد بدون افزودن قابلیت یا رفع خطا |
-| `test` | افزودن یا اصلاح تست‌ها |
-| `chore` | تغییرات نگهداری و کارهای جانبی |
+| `test`     | افزودن یا اصلاح تست‌ها                    |
+| `chore`    | تغییرات نگهداری و کارهای جانبی            |
 
 **نمونه‌ها:**
 
@@ -139,6 +145,7 @@ chore(license): add MIT license
 ```
 
 <a id="code-guidelines"></a>
+
 ### 🐍 استانداردهای کدنویسی
 
 - رعایت استانداردهای نگارش [PEP 8](https://peps.python.org/pep-0008/).
@@ -149,7 +156,8 @@ chore(license): add MIT license
 - به‌روز نگه داشتن مستندات هر پروژه.
 
 <a id="pull-requests-and-issues"></a>
-### 📬 Pull Request و Issues
+
+### 📬 استانداردهای Pull Request و Issues
 
 - هر Pull Request باید روی یک تغییر مشخص متمرکز باشد.
 - توضیح دهید چه چیزی تغییر کرده و دلیل انجام آن چیست.
@@ -158,15 +166,48 @@ chore(license): add MIT license
 - تمام Pull Requestهای مربوط به قابلیت‌های جدید و رفع خطا باید به شاخه `main` ارسال شوند.
 
 <a id="projects"></a>
+
 ## 🚀 پروژه‌ها
 
 مجموعه پروژه‌های این مخزن با هدف تمرین عملی، آزمایش ایده‌ها و توسعه مهارت‌های برنامه‌نویسی ایجاد می‌شوند.
 
-| پروژه | توضیحات |
-|---|---|
-| 🎯 [بازی حدس عدد](./number-guessing-game/) | حدس عدد انتخاب‌شده به‌صورت تصادفی در حداکثر ۱۰ تلاش، همراه با راهنمایی برای انتخاب عدد بزرگ‌تر یا کوچک‌تر. |
+<table align="center">
+  <thead>
+    <tr>
+      <th align="center">نام پروژه</th>
+      <th align="center">توضیحات</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        🎯 <a href="./number-guessing-game/">بازی حدس عدد</a>
+      </td>
+      <td>
+        حدس عدد انتخاب‌شده به‌صورت تصادفی در حداکثر ۱۰ تلاش، همراه با راهنمایی برای انتخاب عدد بزرگ‌تر یا کوچک‌تر.
+      </td>
+    </tr>
+    <tr>
+      <td>
+        🔐 <a href="./caesar-cipher/">رمزنگاری سزار</a>
+      </td>
+      <td>
+      رمزگذاری و رمزگشایی پیام‌ها با استفاده از الگوریتم Caesar Cipher و مقدار جابه‌جایی دلخواه.
+      </td>
+    </tr>
+    <tr>
+      <td>
+        📝 <a href="./text-analyzer/">تحلیل‌گر متن</a>
+      </td>
+      <td>
+        تحلیل متن با شمارش کاراکترها و کلمات، شناسایی موارد پرتکرار و نمایش فراوانی هر کاراکتر و کلمه.
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 <a id="license"></a>
+
 ## 📄 مجوز
 
 این مخزن تحت مجوز [MIT License](./LICENSE) منتشر شده است.
