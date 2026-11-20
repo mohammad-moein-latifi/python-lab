@@ -1,4 +1,4 @@
-<!-- 🌐 Language Switcher -->
+ <!-- 🌐 Language Switcher -->
 <p align="center">
   <a href="./README_FA.md">
     <img src="https://badgen.net/badge/-/🔠%20مشاهده%20نسخه%20فارسی/purple?label=&scale=1.5" alt="Persian Version"/>
@@ -23,6 +23,7 @@
 ---
 
 <a id="about"></a>
+
 ## 👋 About
 
 **Python Lab** is my personal workspace for learning and exploring Python, experimenting with ideas, solving programming challenges, and building independent projects.
@@ -30,6 +31,7 @@
 It brings together practical exercises, coding experiments, and personal projects in one place, with a focus on hands-on development, problem-solving, and continuous improvement.
 
 <a id="table-of-contents"></a>
+
 ## 📑 Table of Contents
 
 - [About](#about)
@@ -43,6 +45,7 @@ It brings together practical exercises, coding experiments, and personal project
 - [License](#license)
 
 <a id="repository-structure"></a>
+
 ## 📂 Repository Structure
 
 Each project is maintained in its own directory, named after its purpose or functionality.
@@ -74,11 +77,13 @@ python-lab/
 5. Add the project name and a short description to the Projects section of this README.
 
 <a id="contributing"></a>
+
 ## 🤝 Contributing
 
 Suggestions, bug reports, and code contributions are welcome. To keep the repository consistent and maintainable, please follow these guidelines.
 
 <a id="branching-strategy"></a>
+
 ### 🌿 Branching Strategy
 
 This repository follows a lightweight **[Feature Branch Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow)**.
@@ -102,6 +107,7 @@ fix/guess-validation
 📚 [Feature Branch Workflow – Atlassian](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow)
 
 <a id="commit-convention"></a>
+
 ### 📝 Commit Convention
 
 Commit messages follow [Semantic Commit Messages](https://gist.github.com/joshbuchea/6f47e86d2510bce28f8e7f42ae84c716).
@@ -118,15 +124,15 @@ Commit messages follow [Semantic Commit Messages](https://gist.github.com/joshbu
 
 **Common types:**
 
-| Type | Purpose |
-|---|---|
-| `feat` | Introduce a new feature |
-| `fix` | Fix a bug |
-| `docs` | Update documentation |
-| `style` | Formatting changes without affecting functionality |
+| Type       | Purpose                                                   |
+| ---------- | --------------------------------------------------------- |
+| `feat`     | Introduce a new feature                                   |
+| `fix`      | Fix a bug                                                 |
+| `docs`     | Update documentation                                      |
+| `style`    | Formatting changes without affecting functionality        |
 | `refactor` | Restructure code without adding a feature or fixing a bug |
-| `test` | Add or update tests |
-| `chore` | Maintenance and supporting tasks |
+| `test`     | Add or update tests                                       |
+| `chore`    | Maintenance and supporting tasks                          |
 
 **Examples:**
 
@@ -139,6 +145,7 @@ chore(license): add MIT license
 ```
 
 <a id="code-guidelines"></a>
+
 ### 🐍 Code Guidelines
 
 - Follow [PEP 8](https://peps.python.org/pep-0008/) coding conventions.
@@ -149,6 +156,7 @@ chore(license): add MIT license
 - Keep project documentation up to date.
 
 <a id="pull-requests-and-issues"></a>
+
 ### 📬 Pull Requests and Issues
 
 - Keep each Pull Request focused on a specific change.
@@ -158,15 +166,48 @@ chore(license): add MIT license
 - Submit feature and bug-fix Pull Requests to `main`.
 
 <a id="projects"></a>
+
 ## 🚀 Projects
 
 Projects in this repository focus on practical development, experimenting with ideas, and improving programming skills.
 
-| Project | Description |
-|---|---|
-| 🎯 [Number Guessing Game](./number-guessing-game/) | Guess a randomly selected number within 10 attempts, with hints indicating whether the next guess should be higher or lower. |
+<table align="center">
+  <thead>
+    <tr>
+      <th align="center">Project</th>
+      <th align="center">Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        🎯 <a href="./number-guessing-game/">Number Guessing Game</a>
+      </td>
+      <td>
+        Guess a randomly selected number within 10 attempts, with hints indicating whether the next guess should be higher or lower.
+      </td>
+    </tr>
+    <tr>
+      <td>
+        🔐 <a href="./caesar-cipher/">Caesar Cipher</a>
+      </td>
+      <td>
+Encode and decode messages using the Caesar Cipher algorithm with a customizable shift value.
+      </td>
+    </tr>
+    <tr>
+      <td>
+        📝 <a href="./text-analyzer/">Text Analyzer</a>
+      </td>
+      <td>
+        Encode and decode messages using the Caesar Cipher algorithm with a customizable shift value.
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 <a id="license"></a>
+
 ## 📄 License
 
 This repository is licensed under the [MIT License](./LICENSE).
