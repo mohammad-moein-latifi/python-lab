@@ -203,6 +203,14 @@ Encode and decode messages using the Caesar Cipher algorithm with a customizable
         Encode and decode messages using the Caesar Cipher algorithm with a customizable shift value.
       </td>
     </tr>
+    <tr>
+      <td>
+        🎓 <a href="./student-grade-management/">Student Grade Management System</a>
+      </td>
+      <td>
+        Register students and courses, calculate unit-weighted GPAs, rank students, identify    conditional students, and search by last name.
+      </td>
+    </tr>
   </tbody>
 </table>
 
