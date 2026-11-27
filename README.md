@@ -205,14 +205,18 @@ Projects in this repository focus on practical development, experimenting with i
     </tr>
     <tr>
       <td>
-        📅 <a href="./user-login-analyzer/">User Login Analyzer</a>
-      </td>
-      <td>
-        Analyze user login activity, count unique users, identify single-login and frequent users, and calculate time intervals between consecutive logins.
         🎓 <a href="./student-grade-management/">Student Grade Management System</a>
       </td>
       <td>
         Register students and courses, calculate unit-weighted GPAs, rank students, identify    conditional students, and search by last name.
+      </td>
+    </tr>
+    <tr>
+      <td>
+        📅 <a href="./user-login-analyzer/">User Login Analyzer</a>
+      </td>
+      <td>
+        Analyze user login activity, count unique users, identify single-login and frequent users, and calculate time intervals between consecutive logins.
       </td>
     </tr>
   </tbody>
