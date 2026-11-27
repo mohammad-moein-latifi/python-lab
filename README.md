@@ -200,7 +200,7 @@ Projects in this repository focus on practical development, experimenting with i
         📝 <a href="./text-analyzer/">Text Analyzer</a>
       </td>
       <td>
-        Encode and decode messages using the Caesar Cipher algorithm with a customizable shift value.
+        Analyze text by counting characters and words, finding the most frequent items, and displaying character and word frequencies.
       </td>
     </tr>
     <tr>
@@ -209,6 +209,10 @@ Projects in this repository focus on practical development, experimenting with i
       </td>
       <td>
         Analyze user login activity, count unique users, identify single-login and frequent users, and calculate time intervals between consecutive logins.
+        🎓 <a href="./student-grade-management/">Student Grade Management System</a>
+      </td>
+      <td>
+        Register students and courses, calculate unit-weighted GPAs, rank students, identify    conditional students, and search by last name.
       </td>
     </tr>
   </tbody>
