@@ -192,7 +192,7 @@ Projects in this repository focus on practical development, experimenting with i
         🔐 <a href="./caesar-cipher/">Caesar Cipher</a>
       </td>
       <td>
-Encode and decode messages using the Caesar Cipher algorithm with a customizable shift value.
+        Encode and decode messages using the Caesar Cipher algorithm with a customizable shift value.
       </td>
     </tr>
     <tr>
@@ -201,6 +201,14 @@ Encode and decode messages using the Caesar Cipher algorithm with a customizable
       </td>
       <td>
         Encode and decode messages using the Caesar Cipher algorithm with a customizable shift value.
+      </td>
+    </tr>
+    <tr>
+      <td>
+        📅 <a href="./user-login-analyzer/">User Login Analyzer</a>
+      </td>
+      <td>
+        Analyze user login activity, count unique users, identify single-login and frequent users, and calculate time intervals between consecutive logins.
       </td>
     </tr>
   </tbody>
